@@ -1,7 +1,3 @@
-#learn mvvm-c from creating a app(MVVM with Flow Controller).
-#通过实例学习MVVM-C(MVVM with Flow Controller).
-
-<br/>
 ##核心思想
 * 比MVVM多了一层Coordinator
 * 把页面(模块)跳转相关的逻辑与其它逻辑一下放到viewModel中
