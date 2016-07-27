@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E35500021D484EDC00269C2D /* ChoiceBellePhotoListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35500011D484EDC00269C2D /* ChoiceBellePhotoListCoordinator.swift */; };
+		E35500041D484F5A00269C2D /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35500031D484F5A00269C2D /* PhotoListViewModel.swift */; };
+		E35500061D48513500269C2D /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35500051D48513500269C2D /* PhotoList.swift */; };
+		E35500081D48550B00269C2D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35500071D48550B00269C2D /* Photo.swift */; };
+		E355000B1D4863D800269C2D /* ChoiceBellePhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355000A1D4863D800269C2D /* ChoiceBellePhotoListViewModel.swift */; };
+		E355000D1D48656F00269C2D /* ChoiceBellePhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355000C1D48656F00269C2D /* ChoiceBellePhotoListViewController.swift */; };
 		E35CB6DE1D475C500069B407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CB6DD1D475C500069B407 /* AppDelegate.swift */; };
-		E35CB6E01D475C500069B407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CB6DF1D475C500069B407 /* ViewController.swift */; };
+		E35CB6E01D475C500069B407 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CB6DF1D475C500069B407 /* WelcomeViewController.swift */; };
 		E35CB6E31D475C500069B407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35CB6E11D475C500069B407 /* Main.storyboard */; };
 		E35CB6E51D475C500069B407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35CB6E41D475C500069B407 /* Assets.xcassets */; };
-		E35CB6E81D475C500069B407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35CB6E61D475C500069B407 /* LaunchScreen.storyboard */; };
 		E35CB6F31D475C500069B407 /* MVVM_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CB6F21D475C500069B407 /* MVVM_CTests.swift */; };
 		E35CB6FE1D475C500069B407 /* MVVM_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CB6FD1D475C500069B407 /* MVVM_CUITests.swift */; };
+		E3E32D291D4771B000625D7F /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32D281D4771B000625D7F /* WelcomeCoordinator.swift */; };
+		E3E32D2C1D47765C00625D7F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32D2B1D47765C00625D7F /* Coordinator.swift */; };
+		E3E32D2F1D47775600625D7F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32D2E1D47775600625D7F /* AppCoordinator.swift */; };
+		E3E32D311D4778DE00625D7F /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32D301D4778DE00625D7F /* WelcomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E35500011D484EDC00269C2D /* ChoiceBellePhotoListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceBellePhotoListCoordinator.swift; sourceTree = "<group>"; };
+		E35500031D484F5A00269C2D /* PhotoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		E35500051D48513500269C2D /* PhotoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		E35500071D48550B00269C2D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E355000A1D4863D800269C2D /* ChoiceBellePhotoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceBellePhotoListViewModel.swift; sourceTree = "<group>"; };
+		E355000C1D48656F00269C2D /* ChoiceBellePhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceBellePhotoListViewController.swift; sourceTree = "<group>"; };
 		E35CB6DA1D475C500069B407 /* MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35CB6DD1D475C500069B407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E35CB6DF1D475C500069B407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E35CB6DF1D475C500069B407 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E35CB6E21D475C500069B407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E35CB6E41D475C500069B407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E35CB6E71D475C500069B407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35CB6E91D475C500069B407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35CB6EE1D475C500069B407 /* MVVM-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35CB6F21D475C500069B407 /* MVVM_CTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CTests.swift; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 		E35CB6F91D475C500069B407 /* MVVM-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35CB6FD1D475C500069B407 /* MVVM_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CUITests.swift; sourceTree = "<group>"; };
 		E35CB6FF1D475C500069B407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E32D281D4771B000625D7F /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
+		E3E32D2B1D47765C00625D7F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E3E32D2E1D47775600625D7F /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E3E32D301D4778DE00625D7F /* WelcomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E35500001D484E8F00269C2D /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				E35500031D484F5A00269C2D /* PhotoListViewModel.swift */,
+			);
+			name = PhotoList;
+			sourceTree = "<group>";
+		};
+		E35500091D485D3E00269C2D /* ChoiceBellePhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				E35500011D484EDC00269C2D /* ChoiceBellePhotoListCoordinator.swift */,
+				E355000A1D4863D800269C2D /* ChoiceBellePhotoListViewModel.swift */,
+				E355000C1D48656F00269C2D /* ChoiceBellePhotoListViewController.swift */,
+			);
+			name = ChoiceBellePhotoList;
+			sourceTree = "<group>";
+		};
 		E35CB6D11D475C500069B407 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +133,15 @@
 		E35CB6DC1D475C500069B407 /* MVVM-C */ = {
 			isa = PBXGroup;
 			children = (
+				E3E32D2A1D47763E00625D7F /* Protocol */,
+				E3E32D321D477E7200625D7F /* Model */,
+				E35500001D484E8F00269C2D /* PhotoList */,
+				E35500091D485D3E00269C2D /* ChoiceBellePhotoList */,
+				E3E32D271D47713700625D7F /* Welcome */,
+				E3E32D2D1D47773500625D7F /* App */,
 				E35CB6DD1D475C500069B407 /* AppDelegate.swift */,
-				E35CB6DF1D475C500069B407 /* ViewController.swift */,
 				E35CB6E11D475C500069B407 /* Main.storyboard */,
 				E35CB6E41D475C500069B407 /* Assets.xcassets */,
-				E35CB6E61D475C500069B407 /* LaunchScreen.storyboard */,
 				E35CB6E91D475C500069B407 /* Info.plist */,
 			);
 			path = "MVVM-C";
@@ -123,6 +163,41 @@
 				E35CB6FF1D475C500069B407 /* Info.plist */,
 			);
 			path = "MVVM-CUITests";
+			sourceTree = "<group>";
+		};
+		E3E32D271D47713700625D7F /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32D281D4771B000625D7F /* WelcomeCoordinator.swift */,
+				E3E32D301D4778DE00625D7F /* WelcomeViewModel.swift */,
+				E35CB6DF1D475C500069B407 /* WelcomeViewController.swift */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		E3E32D2A1D47763E00625D7F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32D2B1D47765C00625D7F /* Coordinator.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		E3E32D2D1D47773500625D7F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32D2E1D47775600625D7F /* AppCoordinator.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E3E32D321D477E7200625D7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E35500071D48550B00269C2D /* Photo.swift */,
+				E35500051D48513500269C2D /* PhotoList.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35CB6E81D475C500069B407 /* LaunchScreen.storyboard in Resources */,
 				E35CB6E51D475C500069B407 /* Assets.xcassets in Resources */,
 				E35CB6E31D475C500069B407 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35CB6E01D475C500069B407 /* ViewController.swift in Sources */,
+				E3E32D2C1D47765C00625D7F /* Coordinator.swift in Sources */,
+				E35500021D484EDC00269C2D /* ChoiceBellePhotoListCoordinator.swift in Sources */,
+				E35CB6E01D475C500069B407 /* WelcomeViewController.swift in Sources */,
+				E3E32D2F1D47775600625D7F /* AppCoordinator.swift in Sources */,
+				E355000B1D4863D800269C2D /* ChoiceBellePhotoListViewModel.swift in Sources */,
+				E35500081D48550B00269C2D /* Photo.swift in Sources */,
 				E35CB6DE1D475C500069B407 /* AppDelegate.swift in Sources */,
+				E355000D1D48656F00269C2D /* ChoiceBellePhotoListViewController.swift in Sources */,
+				E3E32D291D4771B000625D7F /* WelcomeCoordinator.swift in Sources */,
+				E35500041D484F5A00269C2D /* PhotoListViewModel.swift in Sources */,
+				E3E32D311D4778DE00625D7F /* WelcomeViewModel.swift in Sources */,
+				E35500061D48513500269C2D /* PhotoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +383,6 @@
 				E35CB6E21D475C500069B407 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E35CB6E61D475C500069B407 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E35CB6E71D475C500069B407 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,7 +475,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "MVVM-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "im.wangyan.com.MVVM-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +488,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "MVVM-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "im.wangyan.com.MVVM-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +562,7 @@
 				E35CB7041D475C500069B407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35CB7051D475C500069B407 /* Build configuration list for PBXNativeTarget "MVVM-CTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +571,7 @@
 				E35CB7071D475C500069B407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35CB7081D475C500069B407 /* Build configuration list for PBXNativeTarget "MVVM-CUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +580,7 @@
 				E35CB70A1D475C500069B407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
